@@ -68,13 +68,10 @@
 
 /*Hamburguesas*/
 
-
-
-    .sectionHamburgesas{
-        background-image: url(/assets/Fondos/fondo\ cemento.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.sectionHamburgesas{
+    background-image: url(/assets/Fondos/fondo\ cemento.jpg);
+    
+}
 
 
 
