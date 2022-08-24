@@ -1,0 +1,377 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: "fuenteSucursales";
+    src: url(/assets/Fonts/black_ravens/Black\ Ravens.ttf);
+}
+
+@font-face {
+    font-family: "fuenteDescripciones";
+    src: url(/assets/Fonts/Bangers/Bangers-Regular.ttf);
+}
+
+
+.sectionPrincipal{
+    width: 100%;
+
+
+}
+
+
+.btnPedidos{
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    z-index: 999999;
+    background: #000000;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: bolder;
+    border-radius: 15px 0 0 15px;
+    padding: 20px 40px 20px 25px;
+    box-shadow: 5px 5px 10px rgb(71 71 71 / 50%);}
+    .btnPedidos a{
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "fuenteSucursales";}
+
+
+        .footer
+        .redesSociales{
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: space-evenly}
+    .redesSociales a{
+        font-size: 35px;
+        color: white;
+    }
+    .redesSociales a:hover{
+    transform: scale(1.1);
+    }
+
+
+.collapse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+/*Hamburguesas*/
+
+
+
+    .sectionHamburgesas{
+        background-image: url(/assets/Fondos/fondo\ cemento.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .contenedorNuestraBurger{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgNuestrasBurger{
+        width: 50%;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.card{
+background: none;
+    border: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+    
+}
+
+.card-title{
+    text-align: center;
+    color: #000000;
+    font-family: "fuenteDescripciones";
+}
+
+.card-text{
+    text-align: center;
+    color: #000000;
+    font-family: "fuenteDescripciones";
+    font-size: 1.0rem;
+}
+
+
+/*Hamburguesas*/
+
+
+
+
+
+/*Sucursales*/
+
+
+.sectionSucursales{
+    background-image: url(/assets/Fondos/fondo\ cemento.jpg);
+}
+
+.sectionIMG{
+    display: flex;
+    justify-content: center;
+}
+.section__IMG{
+    width: 500px;
+    padding-bottom: 100px;
+}
+.titulo__Sucursales{
+    display: flex;
+    justify-content: center;
+    font-family: "fuenteSucursales";
+    color: #000000;
+    font-size: 85px;
+
+}
+
+.contenedorMapas{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.tituloMapa{
+    text-align: center;
+    font-family: "fuenteDescripciones";
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Sucursales*/
+
+
+/*Sobre Nosotros*/
+
+
+
+.sectionNosotros{
+    background-image: url(/assets/Fondos/fondo\ cemento.jpg);
+}
+.h1Nosotros{
+    font-family: "fuenteSucursales";
+    color: #000000;
+            text-align: center;
+            font-size: 500%;}
+
+.imgNosotros{
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+border-radius: 100px;
+}
+
+.contenedorNosotros{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.parrafoNosotros{
+    font-family: "fuenteDescripciones";
+    color: #000000;
+    margin: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 150%;}
+
+
+
+
+
+    /*Sobre Nosotros*/
+
+
+
+    /*Contacto*/
+
+
+
+    .sectionContacto{
+        background-image: url(/assets/Fondos/fondo\ cemento.jpg);
+        background-size: cover;
+        padding-bottom: 300px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+
+    }
+
+    .h1Contacto{
+        font-family: "fuenteSucursales";
+        color: #000000;
+        text-align: center;
+        font-size: 500%;
+        padding-bottom: 5%;
+    }
+
+
+    .formContacto{
+        width: 1000px;
+        margin: auto ;
+        max-width: 400px;
+
+    }
+
+    .contenedorContacto{
+        width: 100%;
+        display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;}
+
+.form_input{
+font-family: "fuenteDescripciones";
+font-size: 2rem;
+text-align: center;
+outline: none;
+
+}
+.form__input--message{
+font-family:"fuenteDescripciones" ;
+font-size: 2rem;
+text-align: center;
+resize: none;
+outline: none;
+}
+.buttonContacto{
+background-color:#4a4a4a;
+font-family: "fuenteDescripciones";
+font-size: 2rem;
+border: none;
+font-weight: 200;
+border-radius: .2em;
+cursor: pointer;
+
+
+}
+.buttonContacto:hover{
+transform: scale(1.1);
+}
+
+
+
+  /*Contacto*/
+  @media only screen and (max-width:720px){
+    .imgNuestrasBurger{
+        width: 75%;
+    }
+
+
+    #sucursales .sectionSucursales{
+        width: 100%;
+
+
+
+
+    }
+    .section__IMG{
+        width: 75%;
+    }
+    .titulo__Sucursales{
+        font-size: 50px;
+
+    }
+
+    .iframeSucursal{
+        padding-top: 5px;
+        width: 100%;
+    }
+
+
+.contenedorNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imgNosotros{
+    width: 75%;
+    padding-bottom: 5%;
+}
+.parrafoNosotros{
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width:480px){
+    .imgNuestrasBurger{
+        width: 75%;
+    }
+
+
+    #sucursales .sectionSucursales{
+        width: 100%;
+
+
+
+
+    }
+    .section__IMG{
+        width: 75%;
+    }
+    .titulo__Sucursales{
+        font-size: 50px;
+
+    }
+
+    .iframeSucursal{
+        padding-top: 5px;
+        width: 100%;
+    }
+
+
+.contenedorNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imgNosotros{
+    width: 75%;
+    padding-bottom: 5%;
+}
+.parrafoNosotros{
+    text-align: center;
+    font-size: 1.0rem;
+}
+  }
