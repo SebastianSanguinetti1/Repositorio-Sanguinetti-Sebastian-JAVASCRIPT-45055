@@ -170,48 +170,40 @@ section {
   .contenedorContacto .buttonContacto:hover {
     transform: scale(1.1); }
 
-@media only screen and (max-width: 720px) {
-  .imgNuestrasBurger {
-    width: 75%; }
-  #sucursales .section {
-    width: 100%; }
-  .section__IMG {
-    width: 75%; }
+@media screen and (max-width: 720px) {
   .titulo__Sucursales {
-    font-size: 50px; }
-  .iframeSucursal {
-    padding-top: 5px;
-    width: 100%; }
+    text-align: center; }
   .contenedorNosotros {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: wrap; }
   .imgNosotros {
-    width: 75%;
-    padding-bottom: 5%; }
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px; }
   .parrafoNosotros {
+    font-family: "fuente1";
     text-align: center;
-    font-size: 1.0rem; } }
+    color: #000000;
+    margin: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 150%; } }
 
-@media only screen and (max-width: 480px) {
-  .imgNuestrasBurger {
-    width: 75%; }
-  #sucursales .sectionSucursales {
-    width: 100%; }
-  .section__IMG {
-    width: 75%; }
-  .titulo__Sucursales {
-    font-size: 50px; }
-  .iframeSucursal {
-    padding-top: 5px;
-    width: 100%; }
+@media screen and (max-width: 480px) {
   .contenedorNosotros {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex-direction: column; }
-  .imgNosotros {
-    width: 75%;
-    padding-bottom: 5%; }
-  .parrafoNosotros {
-    text-align: center;
-    font-size: 1.0rem; } }
+    justify-content: center; }
+    .contenedorNosotros .imgNosotros {
+      width: 100%; }
+    .contenedorNosotros .parrafoNosotros {
+      text-align: center;
+      color: #000000;
+      margin: 0%;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 150%; } }
