@@ -1,0 +1,227 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "fuente1";
+  src: url(/assets/Fonts/Bangers/Bangers-Regular.ttf);
+}
+
+@font-face {
+  font-family: "fuente2";
+  src: url(/assets/Fonts/black_ravens/BlackRavens.otf);
+}
+
+.collapse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnPedidos {
+  position: fixed;
+  bottom: 10%;
+  right: 0px;
+  z-index: 999999;
+  background: #000000;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 27px;
+  font-weight: bolder;
+  border-radius: 15px 0 0 15px;
+  padding: 20px 40px 20px 25px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "fuente2";
+  }
+}
+
+.footer .redesSociales {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  a {
+    font-size: 35px;
+    color: white;
+  }
+  a:hover {
+    transform: scale(1.1);
+  }
+}
+
+section {
+  background-image: url(/assets/Fondos/fondocemento.jpg);
+}
+
+.contenedorNuestraBurger {
+  display: flex;
+  justify-content: center;
+}
+.imgNuestrasBurger {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    background: none;
+    border: none;
+  }
+  .card-title {
+    font-family: "Fuente1";
+    color: black;
+    text-align: center;
+  }
+
+  .card-text {
+    font-family: "Fuente1";
+    color: #000000;
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+}
+
+.sectionIMG {
+  display: flex;
+  justify-content: center;
+  .section__IMG {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+}
+.titulo__Sucursales {
+  display: flex;
+  justify-content: center;
+  font-family: "fuente2";
+  color: #000000;
+  font-size: 85px;
+}
+
+.contenedorMapas {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .tituloMapa {
+    text-align: center;
+    font-family: "fuente1";
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.h1Nosotros {
+  font-family: "fuente2";
+  color: #000000;
+  text-align: center;
+  font-size: 500%;
+}
+
+.contenedorNosotros {
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+
+  .imgNosotros {
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+  }
+
+  .parrafoNosotros {
+    font-family: "fuente1";
+    color: #000000;
+    margin: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 150%;
+  }
+}
+
+
+
+.sectionContacto{ background-size: cover;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+
+
+
+.h1Contacto{
+    font-family: "fuente2";
+    color: #000000;
+    text-align: center;
+    font-size: 500%;
+    padding-bottom: 5%;}
+
+    .contenedorContacto{
+        width: 100%;
+        display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+    .formContacto{
+        width: 1000px;
+        margin: auto ;
+        max-width: 400px;
+
+    }
+
+    .form_input{
+        font-family: "fuente1";
+        font-size: 2rem;
+        text-align: center;
+        outline: none;
+        
+        }
+
+        .form__input--message{
+            font-family:"fuente1" ;
+            font-size: 2rem;
+            text-align: center;
+            resize: none;
+            outline: none;
+            }
+
+            .buttonContacto{
+                background-color:#4a4a4a;
+                font-family: "fuente1";
+                font-size: 2rem;
+                border: none;
+                font-weight: 200;
+                border-radius: .2em;
+                cursor: pointer;}
+
+                .buttonContacto:hover{
+                    transform: scale(1.1);
+                    }
+
+
+
+
+
+
+
+
+
+}
