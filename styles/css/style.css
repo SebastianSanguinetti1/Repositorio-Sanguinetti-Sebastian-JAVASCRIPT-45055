@@ -169,3 +169,49 @@ section {
     cursor: pointer; }
   .contenedorContacto .buttonContacto:hover {
     transform: scale(1.1); }
+
+@media only screen and (max-width: 720px) {
+  .imgNuestrasBurger {
+    width: 75%; }
+  #sucursales .section {
+    width: 100%; }
+  .section__IMG {
+    width: 75%; }
+  .titulo__Sucursales {
+    font-size: 50px; }
+  .iframeSucursal {
+    padding-top: 5px;
+    width: 100%; }
+  .contenedorNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .imgNosotros {
+    width: 75%;
+    padding-bottom: 5%; }
+  .parrafoNosotros {
+    text-align: center;
+    font-size: 1.0rem; } }
+
+@media only screen and (max-width: 480px) {
+  .imgNuestrasBurger {
+    width: 75%; }
+  #sucursales .sectionSucursales {
+    width: 100%; }
+  .section__IMG {
+    width: 75%; }
+  .titulo__Sucursales {
+    font-size: 50px; }
+  .iframeSucursal {
+    padding-top: 5px;
+    width: 100%; }
+  .contenedorNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .imgNosotros {
+    width: 75%;
+    padding-bottom: 5%; }
+  .parrafoNosotros {
+    text-align: center;
+    font-size: 1.0rem; } }
