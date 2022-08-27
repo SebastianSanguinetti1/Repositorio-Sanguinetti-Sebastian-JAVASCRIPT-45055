@@ -154,74 +154,60 @@ section {
   }
 }
 
-
-
-.sectionContacto{ background-size: cover;
-    padding-bottom: 300px;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-
+.sectionContacto {
+  background-size: cover;
+  padding-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.h1Contacto {
+  font-family: "fuente2";
+  color: #000000;
+  text-align: center;
+  font-size: 500%;
+  padding-bottom: 5%;
+}
 
+.contenedorContacto {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
 
+  .formContacto {
+    width: 1000px;
+    margin: auto;
+    max-width: 400px;
+  }
 
-.h1Contacto{
-    font-family: "fuente2";
-    color: #000000;
+  .form_input {
+    font-family: "fuente1";
+    font-size: 2rem;
     text-align: center;
-    font-size: 500%;
-    padding-bottom: 5%;}
+    outline: none;
+  }
 
-    .contenedorContacto{
-        width: 100%;
-        display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
+  .form__input--message {
+    font-family: "fuente1";
+    font-size: 2rem;
+    text-align: center;
+    resize: none;
+    outline: none;
+  }
 
-    .formContacto{
-        width: 1000px;
-        margin: auto ;
-        max-width: 400px;
+  .buttonContacto {
+    background-color: #4a4a4a;
+    font-family: "fuente1";
+    font-size: 2rem;
+    border: none;
+    font-weight: 200;
+    border-radius: 0.2em;
+    cursor: pointer;
+  }
 
-    }
-
-    .form_input{
-        font-family: "fuente1";
-        font-size: 2rem;
-        text-align: center;
-        outline: none;
-        
-        }
-
-        .form__input--message{
-            font-family:"fuente1" ;
-            font-size: 2rem;
-            text-align: center;
-            resize: none;
-            outline: none;
-            }
-
-            .buttonContacto{
-                background-color:#4a4a4a;
-                font-family: "fuente1";
-                font-size: 2rem;
-                border: none;
-                font-weight: 200;
-                border-radius: .2em;
-                cursor: pointer;}
-
-                .buttonContacto:hover{
-                    transform: scale(1.1);
-                    }
-
-
-
-
-
-
-
-
-
+  .buttonContacto:hover {
+    transform: scale(1.1);
+  }
 }

@@ -165,7 +165,7 @@ section {
     font-size: 2rem;
     border: none;
     font-weight: 200;
-    border-radius: .2em;
+    border-radius: 0.2em;
     cursor: pointer; }
   .contenedorContacto .buttonContacto:hover {
     transform: scale(1.1); }
