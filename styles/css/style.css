@@ -3,14 +3,6 @@
   padding: 0%;
   box-sizing: border-box; }
 
-@font-face {
-  font-family: "fuente1";
-  src: url(/assets/Fonts/Bangers/Bangers-Regular.ttf); }
-
-@font-face {
-  font-family: "fuente2";
-  src: url(/assets/Fonts/black_ravens/BlackRavens.otf); }
-
 .collapse {
   display: flex;
   justify-content: space-evenly; }
@@ -65,11 +57,11 @@ section {
     background: none;
     border: none; }
   .row .card-title {
-    font-family: "Fuente1";
+    font-family: 'Bangers';
     color: black;
     text-align: center; }
   .row .card-text {
-    font-family: "Fuente1";
+    font-family: 'Bangers';
     color: #000000;
     text-align: center; }
   .row .card:hover {
@@ -97,7 +89,7 @@ section {
   padding-bottom: 20px; }
   .contenedorMapas .tituloMapa {
     text-align: center;
-    font-family: "fuente1";
+    font-family: 'Bangers';
     color: #000000;
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -118,7 +110,7 @@ section {
     padding-right: 10px;
     border-radius: 100px; }
   .contenedorNosotros .parrafoNosotros {
-    font-family: "fuente1";
+    font-family: 'Bangers';
     color: #000000;
     margin: 0%;
     padding-left: 15px;
@@ -149,19 +141,19 @@ section {
     margin: auto;
     max-width: 400px; }
   .contenedorContacto .form_input {
-    font-family: "fuente1";
+    font-family: 'Bangers';
     font-size: 2rem;
     text-align: center;
     outline: none; }
   .contenedorContacto .form__input--message {
-    font-family: "fuente1";
+    font-family: 'Bangers';
     font-size: 2rem;
     text-align: center;
     resize: none;
     outline: none; }
   .contenedorContacto .buttonContacto {
     background-color: #4a4a4a;
-    font-family: "fuente1";
+    font-family: 'Bangers';
     font-size: 2rem;
     border: none;
     font-weight: 200;
