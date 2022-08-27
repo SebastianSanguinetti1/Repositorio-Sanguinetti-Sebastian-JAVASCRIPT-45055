@@ -3,6 +3,15 @@
   padding: 0%;
   box-sizing: border-box;
 }
+@font-face {
+    font-family: "fuente1";
+    src: url(../../assets/Fonts/Bangers/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: "fuente2";
+    src: url(../../assets/Fonts/black_ravens/BlackRavens.otf);
+}
 
 .collapse {
   display: flex;
@@ -45,7 +54,7 @@
 }
 
 section {
-  background-image: url(/assets/Fondos/fondocemento.jpg);
+  background-image:url(.././../assets/Fondos/fondocemento.jpg);
 }
 
 .contenedorNuestraBurger {
@@ -68,13 +77,13 @@ section {
     border: none;
   }
   .card-title {
-    font-family: 'Bangers';
+    font-family:"fuente1";
     color: black;
     text-align: center;
   }
 
   .card-text {
-    font-family: 'Bangers';
+    font-family:"fuente1";
     color: #000000;
     text-align: center;
   }
@@ -109,7 +118,7 @@ section {
 
   .tituloMapa {
     text-align: center;
-    font-family: 'Bangers';
+    font-family:"fuente1";
     color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -135,7 +144,7 @@ section {
   }
 
   .parrafoNosotros {
-    font-family: 'Bangers';
+    font-family:"fuente1";
     color: #000000;
     margin: 0%;
     padding-left: 15px;
@@ -173,14 +182,14 @@ section {
   }
 
   .form_input {
-    font-family: 'Bangers';
+    font-family:"fuente1";
     font-size: 2rem;
     text-align: center;
     outline: none;
   }
 
   .form__input--message {
-    font-family: 'Bangers';
+    font-family:"fuente1";
     font-size: 2rem;
     text-align: center;
     resize: none;
@@ -189,7 +198,7 @@ section {
 
   .buttonContacto {
     background-color: #4a4a4a;
-    font-family: 'Bangers';
+    font-family:"fuente1";
     font-size: 2rem;
     border: none;
     font-weight: 200;
