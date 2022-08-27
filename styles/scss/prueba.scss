@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 @font-face {
-    font-family: "fuente1";
+    font-family:"fuente1";
     src: url(../../assets/Fonts/Bangers/Bangers-Regular.ttf);
 }
 
 @font-face {
-    font-family: "fuente2";
+    font-family:"fuente2";
     src: url(../../assets/Fonts/black_ravens/BlackRavens.otf);
 }
 
@@ -33,7 +33,7 @@
   a {
     color: #ffffff;
     text-decoration: none;
-    font-family: "fuente2";
+    font-family:"fuente2";
   }
 }
 
@@ -105,7 +105,7 @@ section {
 .titulo__Sucursales {
   display: flex;
   justify-content: center;
-  font-family: "fuente2";
+  font-family:"fuente2";
   color: #000000;
   font-size: 85px;
 }
@@ -125,7 +125,7 @@ section {
   }
 }
 .h1Nosotros {
-  font-family: "fuente2";
+  font-family:"fuente2";
   color: #000000;
   text-align: center;
   font-size: 500%;
@@ -162,7 +162,7 @@ section {
 }
 
 .h1Contacto {
-  font-family: "fuente2";
+  font-family:"fuente2";
   color: #000000;
   text-align: center;
   font-size: 500%;
