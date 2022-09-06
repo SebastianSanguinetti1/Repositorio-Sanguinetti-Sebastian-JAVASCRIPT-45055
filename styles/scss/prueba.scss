@@ -1,17 +1,10 @@
 @import "./partials/reset";
 
-@import "./partials/footer";
+@import "./partials/footer--header";
 
-.collapse {
-  display: flex;
-  justify-content: space-evenly;
+@import "./partials/tittlesecciones";
 
-.nav-link{
-  font-family: "fuente1";
-  font-size: 1.3rem;
-}
 
-}
 
 .btnPedidos {
   position: fixed;
@@ -32,19 +25,14 @@
   }
 }
 
+//**BOTON PEDIDOS**//
 
 
-section {
-  background-image:url(.././../assets/Fondos/fondocemento.jpg);
-}
 
-.contenedorNuestraBurger {
-  display: flex;
-  justify-content: center;
-}
-.imgNuestrasBurger {
-  width: 50%;
-}
+
+
+//**HAMBURGUESAS**//
+
 
 .row {
   display: flex;
@@ -75,14 +63,15 @@ section {
   }
 }
 
-.sectionIMG {
-  display: flex;
-  justify-content: center;
-  .section__IMG {
-    width: 50%;
-    padding-bottom: 50px;
-  }
-}
+
+//*HAMBURGUESAS**//
+
+
+
+
+
+//*SUCURSALES**//
+
 .titulo__Sucursales {
   display: flex;
   justify-content: center;
@@ -105,6 +94,19 @@ section {
     padding-bottom: 20px;
   }
 }
+
+
+
+//**SUCURSALES**//
+
+
+
+
+
+
+//**SOBRE NOSOTROS**//
+
+
 .h1Nosotros {
   font-family:"fuente2";
   color: #000000;
@@ -133,6 +135,14 @@ section {
     font-size: 150%;
   }
 }
+
+
+//**SOBRE NOSOTROS**//
+
+
+
+
+//**CONTACTO**//
 
 .sectionContacto {
   background-size: cover;
@@ -192,7 +202,12 @@ section {
   }
 }
 
+//**CONTACTO**//
 
+
+
+
+//**MEDIA QUERIES**//
 
 
 
@@ -251,3 +266,4 @@ justify-content: center;
 
 
 
+//**MEDIA QUERIES**//
