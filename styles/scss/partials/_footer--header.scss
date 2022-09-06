@@ -1,0 +1,27 @@
+.collapse {
+  display: flex;
+  justify-content: space-evenly;
+
+.nav-link{
+  font-family: "fuente1";
+  font-size: 1.3rem;
+}
+
+}
+
+
+.footer .redesSociales {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    a {
+      font-size: 35px;
+      color:green;
+    }
+    a:hover {
+      transform: scale(1.1);
+    }
+  }
