@@ -11,6 +11,16 @@
   font-family: "fuente2";
   src: url(../../assets/Fonts/black_ravens/BlackRavens.otf); }
 
+section {
+  background-image: url(.././../assets/Fondos/fondocemento.jpg); }
+
+.collapse {
+  display: flex;
+  justify-content: space-evenly; }
+  .collapse .nav-link {
+    font-family: "fuente1";
+    font-size: 1.3rem; }
+
 .footer .redesSociales {
   background-color: black;
   display: flex;
@@ -24,12 +34,11 @@
   .footer .redesSociales a:hover {
     transform: scale(1.1); }
 
-.collapse {
+.contenedorTittle {
   display: flex;
-  justify-content: space-evenly; }
-  .collapse .nav-link {
-    font-family: "fuente1";
-    font-size: 1.3rem; }
+  justify-content: center; }
+  .contenedorTittle .imgTittle {
+    width: 50%; }
 
 .btnPedidos {
   position: fixed;
@@ -47,16 +56,6 @@
     color: #ffffff;
     text-decoration: none;
     font-family: "fuente2"; }
-
-section {
-  background-image: url(.././../assets/Fondos/fondocemento.jpg); }
-
-.contenedorNuestraBurger {
-  display: flex;
-  justify-content: center; }
-
-.imgNuestrasBurger {
-  width: 50%; }
 
 .row {
   display: flex;
@@ -78,13 +77,6 @@ section {
   .row .card:hover {
     transform: scale(1.1);
     transition: 400ms; }
-
-.sectionIMG {
-  display: flex;
-  justify-content: center; }
-  .sectionIMG .section__IMG {
-    width: 50%;
-    padding-bottom: 50px; }
 
 .titulo__Sucursales {
   display: flex;
