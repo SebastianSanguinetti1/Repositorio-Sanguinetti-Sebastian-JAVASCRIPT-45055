@@ -11,9 +11,25 @@
   font-family: "fuente2";
   src: url(../../assets/Fonts/black_ravens/BlackRavens.otf); }
 
+.footer .redesSociales {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly; }
+  .footer .redesSociales a {
+    font-size: 35px;
+    color: green; }
+  .footer .redesSociales a:hover {
+    transform: scale(1.1); }
+
 .collapse {
   display: flex;
   justify-content: space-evenly; }
+  .collapse .nav-link {
+    font-family: "fuente1";
+    font-size: 1.3rem; }
 
 .btnPedidos {
   position: fixed;
@@ -31,19 +47,6 @@
     color: #ffffff;
     text-decoration: none;
     font-family: "fuente2"; }
-
-.footer .redesSociales {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-evenly; }
-  .footer .redesSociales a {
-    font-size: 35px;
-    color: white; }
-  .footer .redesSociales a:hover {
-    transform: scale(1.1); }
 
 section {
   background-image: url(.././../assets/Fondos/fondocemento.jpg); }

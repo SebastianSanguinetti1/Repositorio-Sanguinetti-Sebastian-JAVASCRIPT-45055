@@ -1,21 +1,16 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-@font-face {
-    font-family:"fuente1";
-    src: url(../../assets/Fonts/Bangers/Bangers-Regular.ttf);
-}
+@import "./partials/reset";
 
-@font-face {
-    font-family:"fuente2";
-    src: url(../../assets/Fonts/black_ravens/BlackRavens.otf);
-}
+@import "./partials/footer";
 
 .collapse {
   display: flex;
   justify-content: space-evenly;
+
+.nav-link{
+  font-family: "fuente1";
+  font-size: 1.3rem;
+}
+
 }
 
 .btnPedidos {
@@ -37,21 +32,7 @@
   }
 }
 
-.footer .redesSociales {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  a {
-    font-size: 35px;
-    color: white;
-  }
-  a:hover {
-    transform: scale(1.1);
-  }
-}
+
 
 section {
   background-image:url(.././../assets/Fondos/fondocemento.jpg);
@@ -210,6 +191,9 @@ section {
     transform: scale(1.1);
   }
 }
+
+
+
 
 
 @media screen and (max-width:720px)
