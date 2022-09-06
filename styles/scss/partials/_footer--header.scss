@@ -1,6 +1,7 @@
 .collapse {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: flex-end;
 
 .nav-link{
   font-family: "fuente1";
@@ -9,19 +10,50 @@
 
 }
 
+.collapse .navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
 
-.footer .redesSociales {
+
+.pie{
+  display: flex;
+   justify-content: center; 
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    a {
-      font-size: 35px;
-      color:green;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-block: 20px;
+
+    a{
+      color: white;
+      font-size: 20px
     }
+
     a:hover {
       transform: scale(1.1);
     }
-  }
+
+    .redesSociales{
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    
+    }
+
+    .fa-brands{
+      padding: 1rem;
+      border-radius: 20px;
+    }
+}
+
+
+$redes: (
+    facebook: blue,
+    instagram: rgb(140, 26, 121),
+    whatsapp: green
+  );
+
+@each $redsocial,$colordered in $redes {
+.fa-#{$redsocial} {
+background-color: $colordered;}
+} 

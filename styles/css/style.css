@@ -14,32 +14,6 @@
 section {
   background-image: url(.././../assets/Fondos/fondocemento.jpg); }
 
-.collapse {
-  display: flex;
-  justify-content: space-evenly; }
-  .collapse .nav-link {
-    font-family: "fuente1";
-    font-size: 1.3rem; }
-
-.footer .redesSociales {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-evenly; }
-  .footer .redesSociales a {
-    font-size: 35px;
-    color: green; }
-  .footer .redesSociales a:hover {
-    transform: scale(1.1); }
-
-.contenedorTittle {
-  display: flex;
-  justify-content: center; }
-  .contenedorTittle .imgTittle {
-    width: 50%; }
-
 .btnPedidos {
   position: fixed;
   bottom: 10%;
@@ -56,6 +30,70 @@ section {
     color: #ffffff;
     text-decoration: none;
     font-family: "fuente2"; }
+
+.btnPedidosya {
+  position: fixed;
+  bottom: 10%;
+  right: 0px;
+  z-index: 999999;
+  background: #000000;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 27px;
+  font-weight: bolder;
+  border-radius: 15px 0 0 15px;
+  padding: 20px 40px 20px 25px; }
+  .btnPedidosya a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "fuente2"; }
+
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .collapse .nav-link {
+    font-family: "fuente1";
+    font-size: 1.3rem; }
+
+.collapse .navbar-collapse {
+  display: flex;
+  justify-content: center; }
+
+.pie {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-block: 20px; }
+  .pie a {
+    color: white;
+    font-size: 20px; }
+  .pie a:hover {
+    transform: scale(1.1); }
+  .pie .redesSociales {
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
+  .pie .fa-brands {
+    padding: 1rem;
+    border-radius: 20px; }
+
+.fa-facebook {
+  background-color: blue; }
+
+.fa-instagram {
+  background-color: #8c1a79; }
+
+.fa-whatsapp {
+  background-color: green; }
+
+.contenedorTittle {
+  display: flex;
+  justify-content: center; }
+  .contenedorTittle .imgTittle {
+    width: 50%; }
 
 .row {
   display: flex;
