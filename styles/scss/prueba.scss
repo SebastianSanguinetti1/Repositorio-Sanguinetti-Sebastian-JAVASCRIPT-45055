@@ -163,8 +163,17 @@
 
 
 
-@media screen and (max-width:720px)
-{
+@media screen and (max-width:720px){
+  .contenedorTittle {
+    display: flex;
+    justify-content: center;
+  
+  .imgTittle{
+    width: 100%;
+  }
+}
+
+
 .titulo__Sucursales{
 text-align: center;
 }
@@ -198,7 +207,7 @@ text-align: center;
     justify-content: center;
   
   .imgTittle{
-    width: 50%;
+    width: 100%;
   }
 }
 .contenedorNosotros{

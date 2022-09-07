@@ -185,6 +185,11 @@ section {
     transform: scale(1.1); }
 
 @media screen and (max-width: 720px) {
+  .contenedorTittle {
+    display: flex;
+    justify-content: center; }
+    .contenedorTittle .imgTittle {
+      width: 100%; }
   .titulo__Sucursales {
     text-align: center; }
   .contenedorNosotros {
@@ -210,7 +215,7 @@ section {
     display: flex;
     justify-content: center; }
     .contenedorTittle .imgTittle {
-      width: 50%; }
+      width: 100%; }
   .contenedorNosotros {
     display: flex;
     flex-direction: column;
