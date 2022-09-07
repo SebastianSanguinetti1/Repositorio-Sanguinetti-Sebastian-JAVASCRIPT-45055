@@ -4,9 +4,9 @@
 
 @import "./partials/tittlesecciones";
 
+@import "./partials/variables.scss";
 
-
-//**BOTON PEDIDOS**//
+@import "./partials/cajaburger";
 
 
 
@@ -14,35 +14,6 @@
 
 //**HAMBURGUESAS**//
 
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  .card {
-    background: none;
-    border: none;
-  }
-  .card-title {
-    font-family:"fuente1";
-    color: black;
-    text-align: center;
-  }
-
-  .card-text {
-    font-family:"fuente1";
-    color: #000000;
-    text-align: center;
-  }
-
-  .card:hover {
-    transform: scale(1.1);
-    transition: 400ms;
-  }
-}
 
 
 //*HAMBURGUESAS**//
@@ -222,6 +193,14 @@ text-align: center;
 }
 @media screen and (max-width:480px){
 
+  .contenedorTittle {
+    display: flex;
+    justify-content: center;
+  
+  .imgTittle{
+    width: 50%;
+  }
+}
 .contenedorNosotros{
 display: flex;
 flex-direction: column;
@@ -229,7 +208,6 @@ flex-wrap: wrap;
 justify-content: center;
 .imgNosotros{
     width: 100%;
-
 }
 .parrafoNosotros {
     text-align: center;
@@ -246,5 +224,36 @@ justify-content: center;
 
 
 
+ @media screen and (max-width:320px){
 
-//**MEDIA QUERIES**//
+  .contenedorTittle {
+    display: flex;
+    justify-content: center;
+  
+  .imgTittle{
+    width: 100%;
+  }
+  }
+  .contenedorNosotros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    .imgNosotros{
+       width: 75%;
+      }
+    
+    .parrafoNosotros {
+      text-align: center;
+      color: #000000;
+      margin: 0%;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 100%;}
+
+    }
+  }
+
+
+//**MEDIA QUERIES**/

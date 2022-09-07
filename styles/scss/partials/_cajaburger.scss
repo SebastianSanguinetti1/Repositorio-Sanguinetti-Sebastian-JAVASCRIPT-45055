@@ -1,0 +1,34 @@
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: wrap;
+    align-items: $align;
+    justify-content: $justify
+    
+}
+
+
+.row {
+    @include flex (row,center,center);
+
+    .card {
+      background: none;
+      border: none;
+    }
+    .card-title {
+      font-family:"fuente1";
+      color: black;
+      text-align: center;
+    }
+  
+    .card-text {
+      font-family:"fuente1";
+      color: #000000;
+      text-align: center;
+    }
+  
+    .card:hover {
+      transform: scale(1.1);
+      transition: 400ms;
+    }
+  }

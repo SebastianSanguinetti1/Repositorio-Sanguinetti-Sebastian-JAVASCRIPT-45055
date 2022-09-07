@@ -31,54 +31,17 @@ section {
     text-decoration: none;
     font-family: "fuente2"; }
 
-.btnPedidosya {
-  position: fixed;
-  bottom: 10%;
-  right: 0px;
-  z-index: 999999;
-  background: #000000;
-  color: #ffffff;
-  font-size: 30px;
-  line-height: 27px;
-  font-weight: bolder;
-  border-radius: 15px 0 0 15px;
-  padding: 20px 40px 20px 25px; }
-  .btnPedidosya a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: "fuente2"; }
-
 .collapse {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end; }
+  justify-content: space-around; }
   .collapse .nav-link {
     font-family: "fuente1";
     font-size: 1.3rem; }
 
-.collapse .navbar-collapse {
-  display: flex;
-  justify-content: center; }
-
-.pie {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-block: 20px; }
-  .pie a {
-    color: white;
-    font-size: 20px; }
-  .pie a:hover {
-    transform: scale(1.1); }
-  .pie .redesSociales {
-    display: flex;
-    align-items: center;
-    gap: 2rem; }
-  .pie .fa-brands {
-    padding: 1rem;
-    border-radius: 20px; }
+.redesSociales .fa-brands {
+  padding: 0.8rem;
+  border-radius: 20px; }
 
 .fa-facebook {
   background-color: blue; }
@@ -94,6 +57,24 @@ section {
   justify-content: center; }
   .contenedorTittle .imgTittle {
     width: 50%; }
+
+.pie {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-block: 20px; }
+
+.redesSociales {
+  display: flex;
+  align-items: center;
+  gap: 2rem; }
+  .redesSociales a {
+    color: white;
+    font-size: 1.5rem; }
+  .redesSociales a:hover {
+    transform: scale(1.1); }
 
 .row {
   display: flex;
@@ -225,6 +206,11 @@ section {
     font-size: 150%; } }
 
 @media screen and (max-width: 480px) {
+  .contenedorTittle {
+    display: flex;
+    justify-content: center; }
+    .contenedorTittle .imgTittle {
+      width: 50%; }
   .contenedorNosotros {
     display: flex;
     flex-direction: column;
@@ -240,3 +226,25 @@ section {
       padding-left: 15px;
       padding-right: 15px;
       font-size: 150%; } }
+
+@media screen and (max-width: 320px) {
+  .contenedorTittle {
+    display: flex;
+    justify-content: center; }
+    .contenedorTittle .imgTittle {
+      width: 100%; }
+  .contenedorNosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .contenedorNosotros .imgNosotros {
+      width: 75%; }
+    .contenedorNosotros .parrafoNosotros {
+      text-align: center;
+      color: #000000;
+      margin: 0%;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 100%; } }
