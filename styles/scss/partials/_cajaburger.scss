@@ -3,14 +3,14 @@
     flex-direction: $direction;
     flex-wrap: wrap;
     align-items: $align;
-    justify-content: $justify
+    justify-content: $justify;
+    margin-right: 0%;
     
 }
 
-
 .row {
     @include flex (row,center,center);
-
+    
     .card {
       background: none;
       border: none;

@@ -1,6 +1,6 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
     box-sizing: border-box;
   }
   @font-face {
@@ -13,10 +13,9 @@
       src: url(../../assets/Fonts/black_ravens/BlackRavens.otf);
   }
 
-
-  section {
+  section{
     background-image:url(.././../assets/Fondos/fondocemento.jpg);
-  }
+    background-size: contain;}
 
   .btnPedidos {
     position: fixed;
