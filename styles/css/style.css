@@ -35,7 +35,7 @@ section {
 .collapse {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: flex-end; }
   .collapse .nav-link {
     font-family: "fuente1";
     font-size: 1.3rem; }
