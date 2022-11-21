@@ -10,10 +10,151 @@
 @font-face {
   font-family: "fuente2";
   src: url(../../assets/Fonts/black_ravens/BlackRavens.otf); }
-
-section {
+.bodyburger{
   background-image: url(.././../assets/Fondos/fondocemento.jpg);
-  background-size: contain; }
+  background-size: contain;}
+  
+
+  #boton-carrito {
+    border: none;
+    color: white;
+    font-size: 40px;
+    background-color:black;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+#boton-carrito:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+#boton-carrito:focus {
+    outline: none;
+}
+
+.boton-agregar {
+  background: none;
+  color: black;
+  font-family: "fuente1";
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+  padding: 5px;
+}
+.boton-agregar:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+
+}
+.boton-agregar:focus {
+  outline: none;
+}
+
+#contenedor-menu {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;}
+
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-carrito {
+  position: relative;
+  background-color: white;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all .5s;
+}
+
+
+.modal-active .modal-carrito {
+  margin-top: 0;
+}
+.modal-carrito h3 {
+  color: white;
+  font-family: "fuente1";
+} 
+  
+  .modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: royalblue;
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+    
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productoEnCarrito p {
+  margin: 0 ;
+}
+
+.productoEnCarrito p {
+    margin: 0 ;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+
+
+  
 
 .btnPedidos {
   position: fixed;
@@ -77,27 +218,61 @@ section {
   .redesSociales a:hover {
     transform: scale(1.1); }
 
-.row {
+
+h1{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  font-family: "fuente2";
+  font-size: 100px;
+  color: black;
+  padding-right: 2.5%;
+}
+
+/* .row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-right: 0%; }
-  .row .card {
+  margin-right: 0%; } */
+  .card-img-top{
+    width: 75%;
+    padding-left: 25%;
+  }
+  .card {
     background: none;
     border: none; }
-  .row .card-title {
+  .card-title {
     font-family: "fuente1";
     color: black;
     text-align: center; }
-  .row .card-text {
+  .card-text {
     font-family: "fuente1";
     color: #000000;
     text-align: center; }
-  .row .card:hover {
+  .card:hover {
     transform: scale(1.1);
     transition: 400ms; }
+.row button{
+margin-left: 23.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .titulo__Sucursales {
   display: flex;
@@ -187,6 +362,18 @@ section {
     transform: scale(1.1); }
 
 @media screen and (max-width: 720px) {
+   #contenedor-menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   }
+   
+   
+
+
+
+
   .contenedorTittle {
     display: flex;
     justify-content: center; }
@@ -235,6 +422,10 @@ section {
       font-size: 150%; } }
 
 @media screen and (max-width: 320px) {
+
+
+
+
   .contenedorTittle {
     display: flex;
     justify-content: center; }
